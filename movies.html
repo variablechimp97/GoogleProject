@@ -1,1 +1,504 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movies Quiz!!</title>
+  <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+
+  <head>
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bulma Version 0.9.0-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+  <style type="text/css">
+    html,
+    body {
+      font-family: 'Open Sans';
+    }
+
+    img {
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="hero is-fullheight is-default is-bold">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="../">
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="tabs is-right">
+                <ul>
+                  <li id="comedy" class="is-active"><a>Comedy Quiz</a></li>
+                  <li id="action"><a href="">Action Quiz</a></li>
+                  <li id="horror"><a href="">Horror Quiz</a></li>
+                  <li id="romance"><a href="">Romance Quiz</a></li>
+                  <li id="anime"><a href="">Anime Quiz</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--       Question 1 -->
+    <div id="questions">
+      <!--     individual question section -->
+      <section class="section">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                </figure>
+              </div>
+              <div class="column is-6 is-offset-1">
+                <h1 class="title is-2">
+                  Question 1:
+                </h1>
+                <div id="question">
+                  <h2 id="question1" class="subtitle is-4">
+                    *This "genre" movie is about "overview"*
+                  </h2>
+                </div>
+                <!--  Input field to put in answer/ button to enter and submit -->
+                <br>
+                <div class="container">
+                  <!--                   more design to the button, make them side by side -->
+                  <div class="field is-grouped">
+                    <p class="control">
+                      <!--                     mb-4 padding for button -->
+                    <section class="chintbutton">
+                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
+                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
+</button>
+<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+
+                    </section>
+                  </div>
+                  <input id="comedysearch" class=" my-text input is-primary is-large" type="text"
+                    placeholder="Enter Your Guess Here" />
+<button class="mb-4 button is-rounded">Give up and move on to next question                 </button>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--       Question 2 -->
+
+      <section class="section ">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                </figure>
+              </div>
+              <div class="column is-6 is-offset-1">
+                <h1 class="title is-2">
+                  Question 2:
+                </h1>
+                <h2 class="subtitle is-4">
+                  *This is where the question will be*
+                </h2>
+                <!--  Input field to put in answer/ button to enter and submit -->
+                <br>
+                <div class="container">
+                  <!--                   more design to the button, make them side by side -->
+                  <div class="field is-grouped">
+                    <p class="control">
+                      <!--                     mb-4 padding for button -->
+                    <section class="ahintbutton">
+                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
+                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
+</button>
+<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    </section>
+                  </div>
+                  <input class=" my-text input is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
+                  <button class="mb-4 button is-rounded">Give up and move on to next question                 </button>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--       Question 3 -->
+      <section class="section ">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                </figure>
+              </div>
+              <div class="column is-6 is-offset-1">
+                <h1 class="title is-2">
+                  Question 3:
+                </h1>
+                <h2 class="subtitle is-4">
+                  *This is where the question will be*
+                </h2>
+                <!--  Input field to put in answer/ button to enter and submit -->
+                <br>
+                <div class="container">
+                  <!--                   more design to the button, make them side by side -->
+                  <div class="field is-grouped">
+                    <p class="control">
+                      <!--                     mb-4 padding for button -->
+                    <section class="rhintbutton">
+                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
+                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
+</button>
+<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button> </section>
+                  </div>
+                  <input class=" my-text input is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
+                  <button class="mb-4 button is-rounded">Give up and move on to next question                 </button>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--       Question 4 -->
+      <section class="section">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                </figure>
+              </div>
+              <div class="column is-6 is-offset-1">
+                <h1 class="title is-2">
+                  Question 4:
+                </h1>
+                <h2 class="subtitle is-4">
+                  *This is where the question will be*
+                </h2>
+                <!--  Input field to put in answer/ button to enter and submit -->
+                <br>
+                <div class="container">
+                  <!--                   more design to the button, make them side by side -->
+                  <div class="field is-grouped">
+                    <p class="control">
+                      <!--                     mb-4 padding for button -->
+                    <section class="hhintbutton">
+                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
+                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
+</button>
+<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    </section>
+                  </div>
+                  <input class=" my-text input is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
+                  <button class="mb-4 button is-rounded">Give up and move on to next question                 </button>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--       Question 5 -->
+      <section class="section">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                </figure>
+              </div>
+              <div class="column is-6 is-offset-1">
+                <h1 class="title is-2">
+                  Question 5:
+                </h1>
+                <h2 class="subtitle is-4">
+                  *This is where the question will be*
+                </h2>
+                <!--  Input field to put in answer/ button to enter and submit -->
+                <br>
+                <div class="container">
+                  <!--                   more design to the button, make them side by side -->
+                  <div class="field is-grouped">
+                    <p class="control">
+                      <!--                     mb-4 padding for button -->
+                    <section class="fhintbutton">
+                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
+                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
+</button>
+<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    </section>
+                  </div>
+                  <input class=" my-text input is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
+                  <button class="mb-4 button is-rounded">Give up and move on to next question                 </button>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--       Question 6 -->
+      <section class="section ">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                </figure>
+              </div>
+              <div class="column is-6 is-offset-1">
+                <h1 class="title is-2">
+                  Question 6:
+                </h1>
+                <h2 class="subtitle is-4">
+                  *This is where the question will be*
+                </h2>
+                <!--  Input field to put in answer/ button to enter and submit -->
+                <br>
+                <div class="container">
+                  <!--                   more design to the button, make them side by side -->
+                  <div class="field is-grouped">
+                    <p class="control">
+                      <!--                     mb-4 padding for button -->
+                      <!--                     hint buttoon is an instead of a -->
+                    <section class="anhintbutton">
+                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
+                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
+</button>
+<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    </section>
+                  </div>
+                  <input class=" my-text input is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
+                  <button class="mb-4 button is-rounded">Give up and move on to next question                 </button>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--       Question 7 -->
+
+      <section class="section">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                </figure>
+              </div>
+              <div class="column is-6 is-offset-1">
+                <h1 class="title is-2">
+                  Question 7:
+                </h1>
+                <h2 class="subtitle is-4">
+                  *This is where the question will be*
+                </h2>
+                <!--  Input field to put in answer/ button to enter and submit -->
+                <br>
+                <div class="container">
+                  <!--                   more design to the button, make them side by side -->
+                  <div class="field is-grouped">
+                    <p class="control">
+                      <!--                     mb-4 padding for button -->
+                    <section class="mhintbutton">
+                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
+                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
+</button>
+<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>     </section>
+                  </div>
+                  <input class=" my-text input is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
+                  <button class="mb-4 button is-rounded">Give up and move on to next question                 </button>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--       Question 8 -->
+      <section class="section">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                </figure>
+              </div>
+              <div class="column is-6 is-offset-1">
+                <h1 class="title is-2">
+                  Question 8:
+                </h1>
+                <h2 class="subtitle is-4">
+                  *This is where the question will be*
+                </h2>
+                <!--  Input field to put in answer/ button to enter and submit -->
+                <br>
+                <div class="container">
+                  <!--                   more design to the button, make them side by side -->
+                  <div class="field is-grouped">
+                    <p class="control">
+                      <!--                     mb-4 padding for button -->
+                    <section class="fhintbutton">
+                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
+                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
+</button>
+<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    </section>
+                  </div>
+                  <input class=" my-text input is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
+                  <button class="mb-4 button is-rounded">Give up and move on to next question                 </button>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!--       Question 9 -->
+
+        <section class="section">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                </figure>
+              </div>
+              <div class="column is-6 is-offset-1">
+                <h1 class="title is-2">
+                  Question 9:
+                </h1>
+                <h2 class="subtitle is-4">
+                  *This is where the question will be*
+                </h2>
+                <!--  Input field to put in answer/ button to enter and submit -->
+                <br>
+                <div class="container">
+                  <!--                   more design to the button, make them side by side -->
+                  <div class="field is-grouped">
+                    <p class="control">
+                      <!--                     mb-4 padding for button -->
+                    <section class="fhintbutton">
+                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
+                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
+</button>
+<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    </section>
+                  </div>
+                  <input class=" my-text input is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
+                  <button class="mb-4 button is-rounded">Give up and move on to next question                 </button>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!--       Question 10 -->
+
+        <section class="section">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                </figure>
+              </div>
+              <div class="column is-6 is-offset-1">
+                <h1 class="title is-2">
+                  Question 10:
+                </h1>
+                <h2 class="subtitle is-4">
+                  *This is where the question will be*
+                </h2>
+                <!--  Input field to put in answer/ button to enter and submit -->
+                <br>
+                <div class="container">
+                  <!--                   more design to the button, make them side by side -->
+                  <div class="field is-grouped">
+                    <p class="control">
+                      <!--                     mb-4 padding for button -->
+                    <section class="fhintbutton">
+                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
+                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
+</button>
+<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    </section>
+                  </div>
+                  <input class=" my-text input is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
+                  <button class="mb-4 button is-rounded">Give up and move on to next question                 </button>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      </div>
+      <section>
+        <div class="hero-foot is-hidden">
+          <div class="container">
+            <div class="tabs is-centered">
+              <ul>
+                <li><a>And the results are...</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+  </section>
+  <script src="../js/bulma.js"></script>
+  <script src="./script.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

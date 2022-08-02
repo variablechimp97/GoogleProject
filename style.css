@@ -1,1 +1,14 @@
-
+html, body {
+    height: 100%;
+    width: 100%;
+  };
+  
+  /*hidden attribute  */
+  
+  .hidden{
+    display: none;
+  };
+  
+  /* .button {
+    color: white;
+  } */
