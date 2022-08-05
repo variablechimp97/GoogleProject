@@ -9,7 +9,8 @@
   <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
 
   <head>
-    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="style.css">
+<!--     <link rel="stylesheet" href="styles.css"> -->
   </head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -63,8 +64,9 @@
           <div class="container has-text-centered">
             <div class="columns is-vcentered">
               <div class="column is-5">
-                <figure class="image is-4by3">
-                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                <figure class="image is-2by3">
+                  <img class="setimage poster1"src="https://media2.giphy.com/media/dyX9ixfxMpOUGawfdK/giphy.gif?cid=6c09b9521c1c55a2098eadffc1e30ed36706522583f7b638&rid=giphy.gif&ct=s" alt="wiggling question mark">
+                
                 </figure>
               </div>
               <div class="column is-6 is-offset-1">
@@ -74,8 +76,7 @@
                 <div id="question">
                   <h2 id="question1" class="subtitle is-4">
                     *This "genre" movie is about "overview"*
-<!--                     placeholder -->
-            
+                    <!--                     placeholder -->
                   </h2>
                 </div>
                 <!--  Input field to put in answer/ button to enter and submit -->
@@ -85,17 +86,20 @@
                   <div class="field is-grouped">
                     <p class="control">
                       <!--                     mb-4 padding for button -->
-                    <section class="chintbutton">
-                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
-                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
-</button>
-<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
-
+                    <section class="hintbutton">
+                      <h2 class="hintscore"> Beware You Lose 20 Points for Hints!</h2>
+                      <button class=" mb-4 button is-rounded question1hint1">Hint 1: Release Date </button>
+                      <button class="mb-4 button is-rounded question1hint2">Hint 2: Top Cast Members
+                      </button>
+                      <button class="mb-4 button is-rounded question1hint3">Hint 3: Similar Movies </button>
                     </section>
                   </div>
+                  <b id="reveal"></b>
+                   <b id="reveal2"></b>
                   <input id="comedysearch" class=" my-text input fields is-primary is-large" type="text"
                     placeholder="Enter Your Guess Here" />
-<button class="moveonbutton mb-4 button is-rounded is-hidden ">Give up and move on to next question                 </button>
+                  <button class="moveonbutton mt-4 mb-4 button is-rounded is-hidden ">Give up and move on to next question
+                  </button>
 
                   </p>
                 </div>
@@ -111,15 +115,16 @@
           <div class="container has-text-centered">
             <div class="columns is-vcentered">
               <div class="column is-5">
-                <figure class="image is-4by3">
-                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                <figure class="image is-2by3">
+                   <img class="setimage poster2"src="https://media2.giphy.com/media/dyX9ixfxMpOUGawfdK/giphy.gif?cid=6c09b9521c1c55a2098eadffc1e30ed36706522583f7b638&rid=giphy.gif&ct=s" alt="wiggling question mark">
+                
                 </figure>
               </div>
               <div class="column is-6 is-offset-1">
                 <h1 class="title is-2">
                   Question 2:
                 </h1>
-                <h2 id="question2" class="subtitle is-4">
+                <h2  id="question2" class="subtitle is-4">
                   *This is where the question will be*
                 </h2>
                 <!--  Input field to put in answer/ button to enter and submit -->
@@ -129,15 +134,20 @@
                   <div class="field is-grouped">
                     <p class="control">
                       <!--                     mb-4 padding for button -->
-                    <section class="ahintbutton">
-                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
-                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
-</button>
-<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    <section class="hintbutton">
+                      <h2 class="hintscore"> Beware You Lose 20 Points for Hints!</h2>
+                      <button class="mb-4 button is-rounded question2hint1">Hint 1: Release Date </button>
+                      <button class=" mb-4 button is-rounded question2hint2">Hint 2: Top Cast Members
+                      </button>
+                      <button class="mb-4 button is-rounded question2hint3">Hint 3: Similar Movies </button>
                     </section>
                   </div>
-                  <input class=" my-text input fields is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
-                  <button class="moveonbutton is-hidden mb-4 button is-rounded">Give up and move on to next question                 </button>
+                  <b id="reveal"></b>
+                   <b id="reveal2"></b>
+                  <input class=" my-text input fields is-primary is-large" type="text"
+                    placeholder="Enter Your Guess Here" />
+                  <button class="moveonbutton is-hidden mt-4 mb-4 button is-rounded">Give up and move on to next question
+                  </button>
 
                   </p>
                 </div>
@@ -152,8 +162,9 @@
           <div class="container has-text-centered">
             <div class="columns is-vcentered">
               <div class="column is-5">
-                <figure class="image is-4by3">
-                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                <figure class="image is-2by3">
+                   <img class="setimage poster3" src="https://media2.giphy.com/media/dyX9ixfxMpOUGawfdK/giphy.gif?cid=6c09b9521c1c55a2098eadffc1e30ed36706522583f7b638&rid=giphy.gif&ct=s" alt="wiggling question mark">
+                  
                 </figure>
               </div>
               <div class="column is-6 is-offset-1">
@@ -170,14 +181,20 @@
                   <div class="field is-grouped">
                     <p class="control">
                       <!--                     mb-4 padding for button -->
-                    <section class="rhintbutton">
-                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
-                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
-</button>
-<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button> </section>
+                    <section class="hintbutton">
+                      <h2 class="hintscore"> Beware You Lose 20 Points for Hints!</h2>
+                      <button class="mb-4 button is-rounded question3hint1">Hint 1: Release Date </button>
+                      <button class=" mb-4 button is-rounded question3hint2">Hint 2: Top Cast Members
+                      </button>
+                      <button class="mb-4 button is-rounded question3hint3">Hint 3: Similar Movies </button>
+                    </section>
                   </div>
-                  <input class=" my-text input fields is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
-                  <button class="moveonbutton is-hidden mb-4 button is-rounded">Give up and move on to next question                 </button>
+                  <b id="reveal"></b>
+                   <b id="reveal2"></b>
+                  <input class=" my-text input fields is-primary is-large" type="text"
+                    placeholder="Enter Your Guess Here" />
+                  <button class="moveonbutton is-hidden mt-4 mb-4 button is-rounded">Give up and move on to next question
+                  </button>
 
                   </p>
                 </div>
@@ -192,8 +209,9 @@
           <div class="container has-text-centered">
             <div class="columns is-vcentered">
               <div class="column is-5">
-                <figure class="image is-4by3">
-                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                <figure class="image is-2by3">
+                   <img  class="setimage poster4" src="https://media2.giphy.com/media/dyX9ixfxMpOUGawfdK/giphy.gif?cid=6c09b9521c1c55a2098eadffc1e30ed36706522583f7b638&rid=giphy.gif&ct=s" alt="wiggling question mark">
+                
                 </figure>
               </div>
               <div class="column is-6 is-offset-1">
@@ -210,15 +228,20 @@
                   <div class="field is-grouped">
                     <p class="control">
                       <!--                     mb-4 padding for button -->
-                    <section class="hhintbutton">
-                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
-                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
-</button>
-<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    <section class="hintbutton">
+                      <h2 class="hintscore"> Beware You Lose 20 Points for Hints!</h2>
+                      <button class="mb-4 button is-rounded question4hint1">Hint 1: Release Date </button>
+                      <button class=" mb-4 button is-rounded question4hint2">Hint 2: Top Cast Members
+                      </button>
+                      <button class="mb-4 button is-rounded question4hint3">Hint 3: Similar Movies </button>
                     </section>
                   </div>
-                  <input class=" my-text input fields is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
-                  <button class="moveonbutton is-hidden mb-4 button is-rounded">Give up and move on to next question                 </button>
+                  <b id="reveal"></b>
+                   <b id="reveal2"></b>
+                  <input class=" my-text input fields is-primary is-large" type="text"
+                    placeholder="Enter Your Guess Here" />
+                  <button class="moveonbutton is-hidden mt-4 mb-4 button is-rounded">Give up and move on to next question
+                  </button>
 
                   </p>
                 </div>
@@ -233,8 +256,9 @@
           <div class="container has-text-centered">
             <div class="columns is-vcentered">
               <div class="column is-5">
-                <figure class="image is-4by3">
-                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                <figure class="image is-2by3">
+                   <img class="setimage poster5" src="https://media2.giphy.com/media/dyX9ixfxMpOUGawfdK/giphy.gif?cid=6c09b9521c1c55a2098eadffc1e30ed36706522583f7b638&rid=giphy.gif&ct=s" alt="wiggling question mark">
+                  
                 </figure>
               </div>
               <div class="column is-6 is-offset-1">
@@ -251,15 +275,20 @@
                   <div class="field is-grouped">
                     <p class="control">
                       <!--                     mb-4 padding for button -->
-                    <section class="fhintbutton">
-                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
-                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
-</button>
-<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    <section class="hintbutton">
+                      <h2 class="hintscore"> Beware You Lose 20 Points for Hints!</h2>
+                      <button class="mb-4 button is-rounded question5hint1">Hint 1: Release Date </button>
+                      <button class=" mb-4 button is-rounded question5hint2">Hint 2: Top Cast Members
+                      </button>
+                      <button class="mb-4 button is-rounded question5hint3">Hint 3: Similar Movies </button>
                     </section>
                   </div>
-                  <input class=" my-text input fields is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
-                  <button class="moveonbutton is-hidden mb-4 button is-rounded">Give up and move on to next question                 </button>
+                  <b id="reveal"></b>
+                   <b id="reveal2"></b>
+                  <input class=" my-text input fields is-primary is-large" type="text"
+                    placeholder="Enter Your Guess Here" />
+                  <button class="moveonbutton is-hidden mt-4 mb-4 button is-rounded">Give up and move on to next question
+                  </button>
 
                   </p>
                 </div>
@@ -275,8 +304,9 @@
           <div class="container has-text-centered">
             <div class="columns is-vcentered">
               <div class="column is-5">
-                <figure class="image is-4by3">
-                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                <figure class="image is-2by3">
+                   <img class="setimage poster6" src="https://media2.giphy.com/media/dyX9ixfxMpOUGawfdK/giphy.gif?cid=6c09b9521c1c55a2098eadffc1e30ed36706522583f7b638&rid=giphy.gif&ct=s" alt="wiggling question mark">
+                 
                 </figure>
               </div>
               <div class="column is-6 is-offset-1">
@@ -294,15 +324,20 @@
                     <p class="control">
                       <!--                     mb-4 padding for button -->
                       <!--                     hint buttoon is an instead of a -->
-                    <section class="anhintbutton">
-                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
-                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
-</button>
-<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    <section class="hintbutton">
+                      <h2 class="hintscore"> Beware You Lose 20 Points for Hints!</h2>
+                      <button class="mb-4 button is-rounded question6hint1">Hint 1: Release Date </button>
+                      <button class=" mb-4 button is-rounded question6hint2">Hint 2: Top Cast Members
+                      </button>
+                      <button class="mb-4 button is-rounded question6hint3">Hint 3: Similar Movies </button>
                     </section>
                   </div>
-                  <input class=" my-text input fields is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
-                  <button class="moveonbutton is-hidden mb-4 button is-rounded">Give up and move on to next question                 </button>
+                  <b id="reveal"></b>
+                   <b id="reveal2"></b>
+                  <input class=" my-text input fields is-primary is-large" type="text"
+                    placeholder="Enter Your Guess Here" />
+                  <button class="moveonbutton is-hidden mt-4 mb-4 button is-rounded">Give up and move on to next question
+                  </button>
 
                   </p>
                 </div>
@@ -319,8 +354,8 @@
           <div class="container has-text-centered">
             <div class="columns is-vcentered">
               <div class="column is-5">
-                <figure class="image is-4by3">
-                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                <figure class="image is-2by3">
+                   <img class="setimage poster7" src="https://media2.giphy.com/media/dyX9ixfxMpOUGawfdK/giphy.gif?cid=6c09b9521c1c55a2098eadffc1e30ed36706522583f7b638&rid=giphy.gif&ct=s" alt="wiggling question mark">
                 </figure>
               </div>
               <div class="column is-6 is-offset-1">
@@ -337,14 +372,20 @@
                   <div class="field is-grouped">
                     <p class="control">
                       <!--                     mb-4 padding for button -->
-                    <section class="mhintbutton">
-                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
-                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
-</button>
-<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>     </section>
+                    <section class="hintbutton">
+                      <h2 class="hintscore"> Beware You Lose 20 Points for Hints!</h2>
+                      <button class="mb-4 button is-rounded question7hint1">Hint 1: Release Date </button>
+                      <button class=" mb-4 button is-rounded question7hint2">Hint 2: Top Cast Members
+                      </button>
+                      <button class="mb-4 button is-rounded question7hint3">Hint 3: Similar Movies </button>
+                    </section>
                   </div>
-                  <input class=" my-text input fields is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
-                  <button class="moveonbutton is-hidden mb-4 button is-rounded">Give up and move on to next question                 </button>
+                  <b id="reveal"></b>
+                   <b id="reveal2"></b>
+                  <input class=" my-text input fields is-primary is-large" type="text"
+                    placeholder="Enter Your Guess Here" />
+                  <button class="moveonbutton is-hidden mt-4 mb-4 button is-rounded">Give up and move on to next question
+                  </button>
 
                   </p>
                 </div>
@@ -359,8 +400,9 @@
           <div class="container has-text-centered">
             <div class="columns is-vcentered">
               <div class="column is-5">
-                <figure class="image is-4by3">
-                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                <figure class="image is-2by3">
+                   <img class="setimage poster8" src="https://media2.giphy.com/media/dyX9ixfxMpOUGawfdK/giphy.gif?cid=6c09b9521c1c55a2098eadffc1e30ed36706522583f7b638&rid=giphy.gif&ct=s" alt="wiggling question mark">
+                  
                 </figure>
               </div>
               <div class="column is-6 is-offset-1">
@@ -377,15 +419,20 @@
                   <div class="field is-grouped">
                     <p class="control">
                       <!--                     mb-4 padding for button -->
-                    <section class="fhintbutton">
-                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
-                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
-</button>
-<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    <section class="hintbutton">
+                      <h2 class="hintscore"> Beware You Lose 20 Points for Hints!</h2>
+                      <button class="mb-4 button is-rounded question8hint1">Hint 1: Release Date </button>
+                      <button class=" mb-4 button is-rounded question8hint2">Hint 2: Top Cast Members
+                      </button>
+                      <button class="mb-4 button is-rounded question8hint3">Hint 3: Similar Movies </button>
                     </section>
                   </div>
-                  <input class=" my-text input fields is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
-                  <button class="moveonbutton is-hidden mb-4 button is-rounded">Give up and move on to next question                 </button>
+                  <b id="reveal"></b>
+                   <b id="reveal2"></b>
+                  <input class=" my-text input fields is-primary is-large" type="text"
+                    placeholder="Enter Your Guess Here" />
+                  <button class="moveonbutton is-hidden mt-4 mb-4 button is-rounded">Give up and move on to next question
+                  </button>
 
                   </p>
                 </div>
@@ -395,15 +442,16 @@
         </div>
       </section>
 
-        <!--       Question 9 -->
+      <!--       Question 9 -->
 
-        <section class="section sectionss is-hidden">
+      <section class="section sectionss is-hidden">
         <div class="hero-body">
           <div class="container has-text-centered">
             <div class="columns is-vcentered">
               <div class="column is-5">
-                <figure class="image is-4by3">
-                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                <figure class="image is-2by3">
+                   <img class="setimage poster9" src="https://media2.giphy.com/media/dyX9ixfxMpOUGawfdK/giphy.gif?cid=6c09b9521c1c55a2098eadffc1e30ed36706522583f7b638&rid=giphy.gif&ct=s" alt="wiggling question mark">
+                  
                 </figure>
               </div>
               <div class="column is-6 is-offset-1">
@@ -420,15 +468,20 @@
                   <div class="field is-grouped">
                     <p class="control">
                       <!--                     mb-4 padding for button -->
-                    <section class="fhintbutton">
-                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
-                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
-</button>
-<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    <section class="hintbutton">
+                      <h2 class="hintscore"> Beware You Lose 20 Points for Hints!</h2>
+                      <button class="mb-4 button is-rounded question9hint1">Hint 1: Release Date </button>
+                      <button class=" mb-4 button is-rounded question9hint2">Hint 2: Top Cast Members
+                      </button>
+                      <button class="mb-4 button is-rounded question9hint3">Hint 3: Similar Movies </button>
                     </section>
                   </div>
-                  <input class=" my-text input fields is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
-                  <button class="moveonbutton is-hidden mb-4 button is-rounded">Give up and move on to next question                 </button>
+                  <b id="reveal"></b>
+                   <b id="reveal2"></b>
+                  <input class=" my-text input fields is-primary is-large" type="text"
+                    placeholder="Enter Your Guess Here" />
+                  <button class="moveonbutton is-hidden mt-4 mb-4 button is-rounded">Give up and move on to next question
+                  </button>
 
                   </p>
                 </div>
@@ -438,15 +491,16 @@
         </div>
       </section>
 
-        <!--       Question 10 -->
+      <!--       Question 10 -->
 
-        <section class="section sectionss is-hidden">
+      <section class="section sectionss is-hidden">
         <div class="hero-body">
           <div class="container has-text-centered">
             <div class="columns is-vcentered">
               <div class="column is-5">
-                <figure class="image is-4by3">
-                  <img src="https://picsum.photos/800/600/?random" alt="Description">
+                <figure class="image is-2by3">
+                   <img class="setimage poster10" src="https://media2.giphy.com/media/dyX9ixfxMpOUGawfdK/giphy.gif?cid=6c09b9521c1c55a2098eadffc1e30ed36706522583f7b638&rid=giphy.gif&ct=s" alt="wiggling question mark">
+                  
                 </figure>
               </div>
               <div class="column is-6 is-offset-1">
@@ -463,15 +517,20 @@
                   <div class="field is-grouped">
                     <p class="control">
                       <!--                     mb-4 padding for button -->
-                    <section class="fhintbutton">
-                      <button class="mb-4 button is-rounded">Hint 1: Release Date                 </button>
-                      <button class=" mb-4 button is-rounded">Hint 2: Top Cast Members
-</button>
-<button class="mb-4 button is-rounded">Hint 3: Similar Movies                 </button>
+                    <section class="hintbutton">
+                      <h2 class="hintscore"> Beware You Lose 20 Points for Hints!</h2>
+                      <button class="mb-4 button is-rounded question10hint1">Hint 1: Release Date </button>
+                      <button class=" mb-4 button is-rounded question10hint2">Hint 2: Top Cast Members
+                      </button>
+                      <button class="mb-4 button is-rounded question10hint3">Hint 3: Similar Movies </button>
                     </section>
                   </div>
-                  <input class=" my-text input fields is-primary is-large" type="text" placeholder="Enter Your Guess Here" />
-                  <button class="moveonbutton is-hidden mb-4 button is-rounded">Give up and move on to next question                 </button>
+                  <b id="reveal"></b>
+                  <b id="reveal2"></b>
+                  <input class=" my-text input fields is-primary is-large" type="text"
+                    placeholder="Enter Your Guess Here" />
+                  <button class="moveonbutton is-hidden mt-4 mb-4 button is-rounded">Give up and move on to next question
+                  </button>
 
                   </p>
                 </div>
@@ -481,18 +540,20 @@
         </div>
       </section>
 
-      </div>
-      <section>
-        <div class="hero-foot">
-          <div class="container">
-            <div class="tabs is-centered">
-              <ul>
-                <div id="finalscore"><li><a>And the results are...</a></li></div>
-              </ul>
-            </div>
+    </div>
+    <section>
+      <div class="hero-foot">
+        <div class="container">
+          <div class="tabs is-centered">
+            <ul>
+              <div id="finalscore">
+                <li><a><b>And the results are...</b></a></li>
+              </div>
+            </ul>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
   </section>
   <script src="../js/bulma.js"></script>
   <script src="./script.js"></script>
