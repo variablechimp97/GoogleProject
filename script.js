@@ -21,19 +21,19 @@ const submitButtons = document.querySelectorAll("#submit");
 
 // Create Genres Object with numbers associated to Strings of genres
 const genreKey = {
-  35: "Comedy",
-  28: "Action",
-  27: "Horror",
-  10749: "Romance",
-  16: "Animated",
-  10751: "Family",
-  9648: "Mystery",
-  18: "Drama",
+  35: "comedy",
+  28: "action",
+  27: "horror",
+  10749: "romance",
+  16: "animated",
+  10751: "family",
+  9648: "mystery",
+  18: "drama",
 };
 
 // Log elements
 // console.log(comedyButton);
-// console.log(actionButton);
+//console.log(actionButton);
 // console.log(horrorButton);
 // console.log(romanceButton);
 // console.log(animatedButton);
